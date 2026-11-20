@@ -7,6 +7,10 @@ int main(){
     int A,B,X,Y;
     scanf("%d%d%d%d",&A,&B,&X,&Y);
 
+    int M = A*2 + B*1;
+    int R = X*2 + Y*1;
+
+    
 
     return 0;
 }
