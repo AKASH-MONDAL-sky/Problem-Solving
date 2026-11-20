@@ -7,8 +7,9 @@ int main() {
 	int X;
 	scanf("%d",&X);
 
+  // solve using switch case
     
-     switch (X) {
+   /*  switch (X) {
         case 1:
             printf("NO\n");
             break;
@@ -42,7 +43,27 @@ int main() {
         default:
             printf("Invalid \n");
     }
-	
+    */
+
+    if (X>=0 && X <= 10)
+    {
+      
+        if (X>=8)
+        {
+            printf("YES\n");
+        }
+        else
+        {
+            printf("NO\n");
+        }   
+        
+    }
+
+    else
+    {
+        printf("Please Enter Number Between: 1 to 10\n");
+    }
+    
     return 0;
 }
 
