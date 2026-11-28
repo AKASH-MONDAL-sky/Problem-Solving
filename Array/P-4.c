@@ -18,7 +18,12 @@ int main(){
         printf("%d ", arr[i]);
     }
     
-
+    // start a loop from 0 to n-k-1 -> for print top part of the array
+    for (int i = 0; i <= n-k-1; i++)
+    {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
 
     return 0;
 }
