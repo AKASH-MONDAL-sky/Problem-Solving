@@ -4,16 +4,6 @@
 int main(){
   int n;
   scanf("%d",&n);//input how many week
- 
-  for(int i=1;i<=n;i++){
-    int ans=0;
-    int arr[7];
-    for(int j=1;j<=7;j++){
-      scanf("%d",&arr[j]);
-      ans += arr[j];
-    }
-    printf("%d\n",ans);
-  }
-  printf("\n");
+
   return 0;
 }
