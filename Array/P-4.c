@@ -12,6 +12,12 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
+    // start a loop from n-k to n-1 -> for print down part of the array
+    for (int i = n-k; i <= n-1; i++)
+    {
+        printf("%d ", arr[i]);
+    }
+    
 
 
     return 0;
